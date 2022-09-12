@@ -3,3 +3,5 @@ export interface FormValue {
   isValid: boolean | undefined
   errorMessage: string | undefined
 }
+
+export interface ApiResponse { token?: string; error?: string }
